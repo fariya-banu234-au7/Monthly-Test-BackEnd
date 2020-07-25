@@ -2,8 +2,6 @@ const Result = require('../model/excelModel');
 const fetch = require("node-fetch")
 
 
-
-
 exports.createResult = async (req, res) => {
     try {
         const result = []
